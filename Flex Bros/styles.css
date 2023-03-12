@@ -1,0 +1,30 @@
+#light {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5%;
+    font-size: 30px;
+    transform: rotate(180deg);
+    color: yellow;
+    cursor:pointer
+}
+
+html, body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+}
+
+canvas {
+    background: white;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+    image-rendering: pixelated;
+}
